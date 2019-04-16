@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <style>
+    .textdiv *{
+      vertical-align:middle;
+      margin: 5px auto;
+      font-size: 110%!important;
+      font-family: Lato, sans-serif;
+      color: #FABB1F;
+      text-align: center;
+
+
+    }
+    
+    
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Comics</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/AVATARFINAL.json");
+    </script>
+  </head>
+  <body>
+  <div style="width: 600px; margin: 0px; padding: 0px; border: 0px none;">
+    <div id="gameContainer" style="width: 600px; height: 600px; margin: auto"></div>
+    <div class="textdiv" style="width: 300px; margin: 0px auto; text-align:center;">
+      <img src="icon.png" width="10%" alt="Drag">
+      <span style="margin-left:2px;">Drag to rotate</span>
+  
+    </div>
+  </div>
+  </body>
+</html>
