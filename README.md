@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Tian's Design Story
 
-You can use the [editor on GitHub](https://github.com/DCForce/tian-design-story/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Link](https://dcforce.github.io/td-design/tian-design-story/)  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Tian and I created this short 2D ACT game presenting her design story and what influences her design style.
 
-### Markdown
+### Basic Info
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* **Duration:** 4 weeks  
+* **Software used:** Unity, Blender, Photoshop, Visual Studio Code  
+  
+* **Design:** Tian Dou, Davis Chen  
+* **3D modeling and animation:** Tian Dou  
+* **Coding and system design:** Davis Chen  
 
-```markdown
-Syntax highlighted code block
+***
 
-# Header 1
-## Header 2
-### Header 3
+### Davis Chen
 
-- Bulleted
-- List
+* **Website:** [https://davischen.me](https://davischen.me)  
 
-1. Numbered
-2. List
+* **Email:** dcfreeze910@gmail.com  
 
-**Bold** and _Italic_ and `Code` text
+* **GitHub:** [DCForce](https://github.com/DCForce/)  
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DCForce/tian-design-story/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Tian Dou
+* **Website:** [http://www.iamdoutian.com/](http://www.iamdoutian.com/)
