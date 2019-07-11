@@ -2,7 +2,7 @@
 
 [Link](https://dcforce.github.io/td-design/tian-design-story/)  
 
-Tian and I created this short 2D ACT game presenting her design story and what influences her design style.
+Tian and I created this simple 3D web game presenting her design story and what influences her design style.
 
 ### Basic Info
 
