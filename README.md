@@ -17,7 +17,7 @@ Tian and I created this simple 3D web game presenting her design story and what 
 
 ### Davis Chen
 
-* **Website:** [https://davischen.me](https://davischen.me)  
+* **Website:** [https://davispcc.com](https://davispcc.com)  
 
 * **Email:** dcfreeze910@gmail.com  
 
