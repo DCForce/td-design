@@ -8,24 +8,28 @@
 
     <style>
         body {
-            background-color: #27b6e9;
-            color: white;
+            /* background-color: #27b6e9; */
+            /* color: white; */
             text-align: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         h1 {
             margin: 7% auto;
         }
-        button {
-            background-color: #ff9522;
-            color: white;
-            font-size: 16px;
-            border: none;
-            border-radius: 10px;
-            padding: 15px 32px;
-            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-            text-align: center;
-            cursor: pointer;
+        .sound_icon {
+            display: block;
+            width: 50px; 
+            height: 110px;
+            margin:0 auto;
+            background: url(http://davispcc.com/td-design/html5-audio-test/sound-sheet.png) 0 0 no-repeat;
+            animation: like-gif steps(28) 1.5s infinite both;
+        }
+        .pause {
+            animation-play-state: paused;
+        }
+        @keyframes like-gif {
+            0% { background-position: 0%; }
+            100% { background-position: 100%; }
         }
     
     </style>
@@ -33,19 +37,19 @@
         var audio_switch=0;
         function audio_control()
         {
-            var play_button = document.getElementById("play_button");
+            var sound_icon = document.getElementById("sound_icon");
             var audio = document.getElementById("bgMusic");
             if(audio_switch==0)
             {
                 audio.play();
                 audio_switch=1;
-                play_button.innerHTML='Pause';
+                sound_icon.classList.remove('pause');
             }
             else
             {
                 audio.pause();
                 audio_switch=0;
-                play_button.innerHTML='Play';
+                sound_icon.classList.add('pause');
             }       
         }
         
@@ -53,10 +57,11 @@
 </head>
 <body>
     <h1>AudioTest-Tian </h1>
-    <button id="play_button" onclick="audio_control();">Play</button>
+
+    <div id="sound_icon" class="sound_icon pause" onclick="audio_control();"></div>
 
     <audio id="bgMusic">
-        <source = src="Outside_Output_7.mp3" type="audio/mp3">
+        <source src="Outside_Output_7.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 
