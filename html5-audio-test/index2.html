@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AudioTest-Tian</title>
+
+    <style>
+        body {
+            /* background-color: #27b6e9; */
+            /* color: white; */
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1 {
+            margin: 7% auto;
+        }
+        .sound_icon {
+            display: block;
+            width: 50px; 
+            height: 50px;
+            margin:0 auto;
+            background: url(http://davispcc.com/td-design/html5-audio-test/sound-sheet.png) 0 0 no-repeat;
+            animation: like-gif steps(28) 1.5s infinite both;
+        }
+        .sound_icon_paused {
+            display: block;
+            width: 50px; 
+            height: 50px;
+            margin:0 auto;
+            background: url(audio.png) 0 0 no-repeat;
+            background-size: cover;
+        }
+        .sound_icon_play {
+            display: block;
+            width: 50px; 
+            height: 50px;
+            margin:0 auto;
+            background: url(sound.gif) 0 0 no-repeat;
+            background-size: cover;
+        }
+        .pause {
+            animation-play-state: paused;
+        }
+        @keyframes like-gif {
+            0% { background-position: 0%; }
+            50% { background-position: 50%; }
+            100% { background-position: 100%; }
+        }
+    
+    </style>
+    <script>
+        var audio_switch=0;
+        function audio_control()
+        {
+            var sound_icon = document.getElementById("sound_icon");
+            var audio = document.getElementById("bgMusic");
+            if(audio_switch==0)
+            {
+                audio.play();
+                audio_switch=1;
+                sound_icon.classList.remove('pause');
+                sound_icon.classList.remove('sound_icon_paused');
+                sound_icon.classList.add('sound_icon_play');
+            }
+            else
+            {
+                audio.pause();
+                audio_switch=0;
+                sound_icon.classList.add('pause');
+                sound_icon.classList.add('sound_icon_paused');
+                sound_icon.classList.remove('sound_icon_play');
+            }       
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>AudioTest-Tian </h1>
+
+    <div id="sound_icon" class="sound_icon_paused pause" onclick="audio_control();"></div>
+
+    <audio id="bgMusic">
+        <source src="http://davispcc.com/td-design/html5-audio-test/Outside_Output_7.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
+
