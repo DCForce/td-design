@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AudioTest-Tian</title>
+
+    <style>
+        body {
+            background-color: #27b6e9;
+            color: white;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1 {
+            margin: 7% auto;
+        }
+        button {
+            background-color: #ff9522;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 32px;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            cursor: pointer;
+        }
+    
+    </style>
+    <script>
+        var audio_switch=0;
+        function audio_control()
+        {
+            var play_button = document.getElementById("play_button");
+            var audio = document.getElementById("bgMusic");
+            if(audio_switch==0)
+            {
+                audio.play();
+                audio_switch=1;
+                play_button.innerHTML='Pause';
+            }
+            else
+            {
+                audio.pause();
+                audio_switch=0;
+                play_button.innerHTML='Play';
+            }       
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>AudioTest-Tian </h1>
+    <button id="play_button" onclick="audio_control();">Play</button>
+
+    <audio id="bgMusic">
+        <source = src="Outside_Output_7.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
+
