@@ -6,10 +6,9 @@ Tian and I created this light 3D web game presenting her design story and what i
 
 ### Information
 
+* **Design by** Tian Dou, Davis Chen  
 * **Duration:** 4 weeks  
 * **Software used:** Unity, Blender, Photoshop, Visual Studio Code  
-  
-* **Design:** Tian Dou, Davis Chen  
 * **3D modeling and animation:** Tian Dou  
 * **Coding and system design:** Davis Chen  
 
