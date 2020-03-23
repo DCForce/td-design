@@ -1,6 +1,6 @@
 ## Tian's Design Story
 
-[Link](https://dcforce.github.io/td-design/tian-design-story/)  
+[Application Link](https://dcforce.github.io/td-design/tian-design-story/)  
 
 Tian and I created this light 3D web game presenting her design story and what influences her design style.
 
@@ -9,8 +9,8 @@ Tian and I created this light 3D web game presenting her design story and what i
 * **Design by** Tian Dou, Davis Chen  
 * **Duration:** 4 weeks  
 * **Software used:** Unity, Blender, Photoshop, Visual Studio Code  
-* **3D modeling and animation:** Tian Dou  
-* **Coding and system design:** Davis Chen  
+* **3D modeling, animation:** Tian Dou  
+* **Coding, animation, system design:** Davis Chen  
 
 ***
 
