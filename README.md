@@ -1,8 +1,8 @@
 ## Tian's Design Story
 
-[Application Link](https://dcforce.github.io/td-design/tian-design-story/)  
+[Link](https://dcforce.github.io/td-design/tian-design-story/)  
 
-Tian and I created this light 3D web game presenting her design story and what influences her design style.
+Tian and I made this light 3D web game presenting her design story and what influences her design style.
 
 ### Information
 
