@@ -16,7 +16,7 @@ Tian and I made this light 3D web game presenting her design story and what infl
 
 ### Davis Chen
 
-* **Website:** [https://davispcc.com](https://davispcc.com)  
+* [https://davispcc.com](https://davispcc.com)  
 
 ### Tian Dou
-* **Website:** [http://www.iamdoutian.com/](http://www.iamdoutian.com/)
+* [http://www.iamdoutian.com/](http://www.iamdoutian.com/)
